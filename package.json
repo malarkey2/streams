@@ -4,7 +4,6 @@
   "description": "Server with the streams app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && node server.js",
     "build": "cd stream-task-charting && npm install && npm run build"
   },
