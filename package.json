@@ -8,8 +8,9 @@
     "build": "cd stream-task-charting && npm install && npm run build"
   },
   "engines": {
-    "node": "13.14.0"
-  },
+    "node": "14.15.1",
+    "npm": "7.6.2"
+    },
   "author": "Harsh Mathur",
   "license": "ISC",
   "dependencies": {

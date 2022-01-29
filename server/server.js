@@ -38,9 +38,9 @@ const corsOptions = {
 
 app.use(cors())
 
-app.use(express.json({ limit: "1mb" }));
+app.use(express.json());
 
-app.use(express.static(path.resolve(__dirname, '../participant-dash/build')))
+app.use(express.static(path.resolve(__dirname, '../stream-task-charting/build')))
 
 
 
