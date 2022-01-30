@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "cd server && node server.js",
-    "build": "npm install"
+    "heroku-postbuild": "cd stream-task-charting && npm install && npm run build"
   },
   "engines": {
-    "node": "14.15.1",
-    "npm": "7.6.2"
-    },
+    "node": "14.15.1"
+  },
   "author": "Harsh Mathur",
   "license": "ISC",
   "dependencies": {
