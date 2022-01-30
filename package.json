@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd server && node server.js",
-    "build": "npm install && cd stream-task-charting && npm install && npm run build"
+    "build": "npm install"
   },
   "engines": {
     "node": "14.15.1",

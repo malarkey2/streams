@@ -44,6 +44,7 @@ app.use(express.static(path.resolve(__dirname, '../stream-task-charting/build'))
 
 
 
+
 const DB = 'mongodb+srv://admin-harsh:' + process.env.DB_PASS + '@cluster0.8y5it.mongodb.net/test-uploads?retryWrites=true&w=majority';
 
 mongoose.connect('mongodb+srv://admin-harsh:7hoPUeNHT2b42upX@cluster0.8y5it.mongodb.net/Stream-Org?retryWrites=true&w=majority');
