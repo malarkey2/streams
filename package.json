@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cd server && node server.js",
-    "build": "cd stream-task-charting && npm install && npm run build"
+    "heroku-postbuild": "cd stream-task-charting && npm install && npm run build"
   },
   "engines": {
     "node": "14.15.1"
